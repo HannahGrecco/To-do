@@ -1,0 +1,9 @@
+@import url(global.css);
+.nav {
+  background-color: var(--nav-background);
+  padding: 20px;
+}
+.nav p {
+  color: var(--hero-h1);
+  margin-left: 20px;
+}

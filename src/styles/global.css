@@ -1,13 +1,31 @@
-:root{
-    --background: #B384F8
-    --nav-background: #230931
-    --rectangle1: #DFCEFF
-    --rectangle2: #230931
-    --button1: #230931
-    --button2: #FFFFFF
+@import url("https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,200;0,600;1,200&display=swap");
 
-    /*Fonte*/
-    --cad-h1: #000000
-    --hero-h1: #FFFFFF
+:root {
+  --background: #b384f8;
+  --nav-background: #230931;
+  --rectangle1: #dfceff;
+  --rectangle2: #230931;
+  --button1: #230931;
+  --button2: #ffffff;
 
+  /*Fonte*/
+  --cad-h1: #000000;
+  --hero-h1: #ffffff;
+  --font: "Krub", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /*Fonte*/
+  font-family: var(--font);
+  font-size: 20px;
+
+  /*backgroud-color*/
+  background-color: var(--background);
+}
+button {
+  font-family: var(--font);
 }
